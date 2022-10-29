@@ -103,3 +103,26 @@ margin-left: -30px;
 .active-link {
     background-color: #FF3F40;
 }
+/* Main */
+/* Intro */
+.intro-wrapper {
+    background-color: #F6F2F2;
+    display: block;
+    width: 100%;
+}
+.intro-heading {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.intro {
+    width: 1249px;
+    margin: 0 auto;
+    display: flex;
+}
+.intro-special {
+    letter-spacing: 6px;
+}
