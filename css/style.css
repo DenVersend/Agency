@@ -192,3 +192,31 @@
     box-shadow: -2.2px -13.8px 73px 0px rgba(0, 0, 0, 0.29);
 
 }
+/* Services */
+.services {
+    display: flex;
+    width: 1249px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.services__info {
+    max-width: 539px;
+}
+.services__heading {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.31;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
+}
+.services__about {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+}
+.action-link_white {
+    color: #FF2D2D;
+    border: 2px solid #FF0000;
+}
