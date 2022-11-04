@@ -57,6 +57,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    
 }
 
 .page__inner {
@@ -150,6 +151,8 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: -15px 0 19px;
+    color: #000000;
+
 }
 
 .intro__heading_special {
@@ -162,6 +165,8 @@
     font-size: 16px;
     line-height: 1.75;
     margin: 0 0 58px;
+    color: #000000;
+
 }
 
 .action-link {
@@ -211,6 +216,8 @@
     line-height: 1.31;
     text-transform: uppercase;
     letter-spacing: 0.42px;
+    color: #000000;
+
 }
 .services__about {
     margin: 50.5px 0 64px;
@@ -218,6 +225,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
+    color: #000000;
+
 }
 .action-link_white {
     color: #FF2D2D;
@@ -277,10 +286,85 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 1.2;
+    color: #000000;
+
 }
 .services__text {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
+    color: #000000;
+
+}
+/* Feature */
+.feature {
+    width: 1249px;
+    margin: 0 auto;
+    padding: 105px 0 65px;
+}
+.feature__header{
+    margin-bottom: 88px;
+}
+.feature__heading {
+    margin: 0;
+    margin-bottom: 28.5px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+.feature__about {
+    width: 537px;
+    margin: 0 auto;
+    margin-bottom: 34.5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #000000;
+}
+.feature__line {
+    width: 130px;
+    height: 2px;
+    background-color: #FF2D2D;
+    border: none;
+}
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+}
+.filter__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 57px;
+}
+.filter__link {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.09;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.filter__link_activ {
+    color: #FF2D2D;
+}
+.filter__link:hover {
+    color: #FF2D2D;
+}
+.feature__product {
+    width: 50px;
+    height: 50px;
 }
