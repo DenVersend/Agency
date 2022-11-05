@@ -364,7 +364,14 @@
 .filter__link:hover {
     color: #FF2D2D;
 }
+.feature__products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
 .feature__product {
-    width: 50px;
-    height: 50px;
+    object-fit: cover;
+    width: 297px;
+    height: 293px;
 }
