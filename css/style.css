@@ -75,6 +75,9 @@
 .page__inner_gray {
     background-color: #F6F2F2;
 }
+.page__inner_dark {
+    background-color: #2C2C2C;
+}
 
 .page__inner_section{
     padding: 101px 0 110px;
@@ -223,7 +226,7 @@
 
 }
 .services__about {
-    margin: 50.5px 0 64px;
+    margin: 34.5px 0 56px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
@@ -284,7 +287,7 @@
     margin-bottom: 32px;
 }
 .services__title {
-    margin: 0 0 13px;
+    margin: 0 0 7px;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 24px;
@@ -298,6 +301,7 @@
     font-size: 16px;
     line-height: 1.75;
     color: #000000;
+    margin: 0;
 
 }
 /* Feature */
@@ -308,10 +312,11 @@
 }
 .feature__header{
     margin-bottom: 88px;
+    padding-left: 35px;
 }
 .feature__heading {
     margin: 0;
-    margin-bottom: 28.5px;
+    margin-bottom: 15.5px;
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 42px;
@@ -324,7 +329,7 @@
 .feature__about {
     width: 537px;
     margin: 0 auto;
-    margin-bottom: 34.5px;
+    margin-bottom: 28.5px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
@@ -348,6 +353,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 58px;
+    padding-left: 52px;
 }
 .filter__list {
     margin: 0;
@@ -355,7 +361,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 57px;
+    gap: 56px;
 }
 .filter__link {
     font-family: 'Open Sans';
@@ -428,7 +434,7 @@
     }
 }
 .team__lead-info {
-    margin-bottom: 59px;
+    margin-bottom: 58px;
     grid-column: 2/3;
     grid-row: 1/2;
     width: 662px;
@@ -466,7 +472,7 @@
     width: 401px;
     gap: 31px;
 }
-.team__lead-link{
+.team__lead-link {
     color: #000000;
     font-family: 'Open Sans';
     font-style: italic;
@@ -474,6 +480,9 @@
     line-height: 1.33;
     text-decoration: none;
     letter-spacing: 0.9px;
+}
+.team__lead-link:hover {
+    text-decoration:underline;
 }
 .team__others {
     display: flex;
@@ -510,4 +519,62 @@
 }
 .team__other:hover > .team__other-name {
 display: block;
+}
+/* subscribe */
+.subscribe {
+    width: 1249px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0 140px;
+}
+.subscribe__heading {
+    font-family: 'Open Sans';
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+    color: #ffff;
+    margin: 0 0 16px;
+}
+.subscribe__about {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    color: #ffff;
+    margin: 0 0 59px;
+}
+.subscribe__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+
+}
+.subscribe__input {
+    box-sizing: border-box;
+    width: 521px;
+    height: 79px;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 0 36px;
+    border: none;
+}
+.subscribe__button {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.89;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+    text-transform: uppercase;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 214px;
+    height: 79px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF2D2D;
 }
