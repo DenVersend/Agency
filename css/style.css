@@ -60,7 +60,7 @@ button {
 }
 /* Page */
 .page {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -130,7 +130,7 @@ button {
     align-items: center;
     min-height: 89px;
     padding: 38px 30px 26px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -161,7 +161,7 @@ button {
 }
 
 .intro__heading {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 800;
     font-size: 60px;
     line-height: 1.2;
@@ -177,7 +177,7 @@ button {
 }
 
 .intro__text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
@@ -194,7 +194,7 @@ button {
     width: 227px;
     min-height: 55px;
     padding: 0.5em 1em;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.88;
@@ -227,7 +227,7 @@ button {
 }
 .services__heading {
     margin: -10px 0 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 42px;
     line-height: 1.31;
@@ -238,7 +238,7 @@ button {
 }
 .services__about {
     margin: 34.5px 0 56px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
@@ -299,7 +299,7 @@ button {
 }
 .services__title {
     margin: 0 0 7px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.2;
@@ -307,7 +307,7 @@ button {
 
 }
 .services__text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
@@ -328,7 +328,7 @@ button {
 .feature__heading {
     margin: 0;
     margin-bottom: 15.5px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 700;
     font-size: 42px;
     line-height: 1.2;
@@ -341,7 +341,7 @@ button {
     width: 537px;
     margin: 0 auto;
     margin-bottom: 28.5px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
@@ -376,7 +376,7 @@ button {
     gap: 56px;
 }
 .filter__link {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 600;
     font-size: 22px;
     line-height: 1.09;
@@ -413,7 +413,7 @@ button {
     margin-bottom: 67px;
 }
 .team__heading {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 42px;
     font-weight: 700;
     margin: 0;
@@ -421,7 +421,7 @@ button {
     text-transform: uppercase;
 }
 .team__about {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
     font-weight: 400;
@@ -460,14 +460,14 @@ button {
     grid-row: 1/3;
 }
 .team__lead-name {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
 }
 .team__lead-about {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
     font-weight: 400;
@@ -486,7 +486,7 @@ button {
 }
 .team__lead-link {
     color: #000000;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-style: italic;
     font-size: 18px;
     line-height: 1.33;
@@ -515,7 +515,7 @@ button {
 }
 .team__other-name {
     display: none;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #ffff;
@@ -542,7 +542,7 @@ display: block;
     padding: 150px 0 140px;
 }
 .subscribe__heading {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 42px;
     font-weight: 700;
     letter-spacing: 1.05px;
@@ -550,7 +550,7 @@ display: block;
     margin: 0 0 16px;
 }
 .subscribe__about {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
     font-weight: 400;
@@ -574,7 +574,7 @@ display: block;
     border: none;
 }
 .subscribe__button {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     line-height: 1.89;
     font-weight: 700;
@@ -598,36 +598,38 @@ display: block;
     padding-bottom: 107px;
 }
 .feedback__header {
-    margin-bottom: 73px;
-}
-.feedback__body {
-    display: flex;
-    gap: 105px;
+    margin-bottom: 76px;
 }
 .feedback__form {
     max-width: 731px;
 }
 .feedback__heading {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 42px;
     font-weight: 700;
     margin: 0;
-    margin-bottom: 45.5px;
+    margin-bottom: 31.5px;
     letter-spacing: 0.3834px;
     text-transform: uppercase;
 }
 .feedback__about {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
     font-weight: 400;
     margin: 0;
-    margin-bottom: 58.5px;
+    margin-bottom: 53.5px;
     width: 752px;
 }
+.feedback__body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 105px;
+}
 .feedback__name {
-    font-family: 'Open Sans';
-    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    line-height: 1.88;
     color: #000000;
     box-sizing: border-box;
     width: 339px;
@@ -640,12 +642,13 @@ display: block;
     margin-bottom: 46px;
 }
 .feedback__name::placeholder {
-    font-family: 'Open Sans';
-    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    line-height: 1.88;
     color: #000000;
 }
 .feedback__email {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     color: #000000;
     box-sizing: border-box;
@@ -658,12 +661,12 @@ display: block;
     margin-bottom: 46px;
 }
 .feedback__email::placeholder {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     color: #000000;
 }
 .feedback__textarea {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     color: #000000;
     box-sizing: border-box;
@@ -674,15 +677,15 @@ display: block;
     border: none;
     border-radius: 5px;
     padding: 30px 51px;
-    margin-bottom: 45px;
+    margin-bottom: 38px;
 }
 .feedback__textarea::placeholder {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     color: #000000;
 }
 .feedback__button {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     line-height: 1.89;
     font-weight: 700;
@@ -702,28 +705,28 @@ display: block;
 .contacts {
     box-sizing: border-box;
     width: 413px;
-    padding: 141px 17px 141px 81px;
+    padding: 134px 17px 141px 81px;
 }
 .contacts__heading {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 18px;
     line-height: 1.89;
     font-weight: 700;
     letter-spacing: 0.317046px;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 21px;
 }
 .contacts__address {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
-    margin-bottom: 27px;
+    margin-bottom: 21px;
 }
 .contacts__email {
     display: block;
     color:#FFFFFF;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
     text-decoration: none;
@@ -732,7 +735,7 @@ display: block;
 .contacts__tel {
     display: block;
     color:#FFFFFF;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.75;
     text-decoration: none;
@@ -750,7 +753,7 @@ display: block;
     box-sizing: border-box;
 }
 .footer__copyright {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.62;
     color: #B8B8B8;
