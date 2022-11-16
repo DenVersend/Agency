@@ -638,14 +638,18 @@ display: block;
 }
 /* Get in touch */
 .feedback {
-    max-width: 1249px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 104px;
     padding-bottom: 107px;
 }
 .feedback__header {
-    width: 752px;
+    max-width: 1249px;
+    margin: 0 auto;
     margin-bottom: 76px;
+}
+.feedback__inner {
+    width: 752px;
 }
 .feedback__form {
     max-width: 731px;
@@ -670,12 +674,21 @@ display: block;
 .feedback__body {
     display: flex;
     flex-wrap: wrap;
-    gap: 105px;
+    /* gap: 105px; */
 }
+.feedback__box {
+    flex: 1 1 auto;
+}
+
+.feedback__box_right {
+    background-color: #2D2D2D;
+}
+
 .feedback__form {
     display: flex;
     flex-wrap: wrap;
     width: 731px;
+    margin-right: 105px;
 }
 .feedback__name {
     font-family: 'Open Sans',sans-serif;
