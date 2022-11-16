@@ -89,7 +89,8 @@ button {
 }
 
 .page__inner_section{
-    padding: 101px 0 110px;
+    box-sizing: border-box;
+    padding: 101px 10px 110px;
 }
 .page__inner_dark-2 {
     background-color: #313030;
@@ -111,12 +112,24 @@ button {
     margin-left: -30px;
 }
 
+@media screen and (max-width:550px) {
+    .site-menu {
+        margin: 0;
+    }
+}
+
 .site-menu__list {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+@media screen and (max-width:550px) {
+    .site-menu__list {
+        justify-content: center;
+    }
 }
 
 .site-menu__item {
@@ -150,16 +163,35 @@ button {
 /* Main */
 /* Intro */
 .intro {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (min-width:800px) and  (max-width:1240px) {
+    .intro {
+        flex-wrap: nowrap;
+    }
 }
 
 .intro__info {
     max-width: 595px;
 }
 
+@media screen and (max-width:1240px) {
+    .intro__info {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .intro__info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 .intro__heading {
     font-family: 'Open Sans',sans-serif;
     font-weight: 800;
@@ -174,6 +206,8 @@ button {
 
 .intro__heading_special {
     letter-spacing: 6px;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .intro__text {
@@ -212,12 +246,24 @@ button {
     height: 356px;
     object-fit: cover;
     box-shadow: -2.2px -13.8px 73px 0px rgba(0, 0, 0, 0.29);
-
 }
+
+@media screen and (max-width:1240px) {
+    .intro__video {
+        width:50%
+    }
+}
+
+@media screen and (max-width:800px) {
+    .intro__video {
+        width:100%
+    }
+}
+
 /* Services */
 .services {
     display: flex;
-    width: 1249px;
+    max-width: 1249px;
     margin: 107.5px auto 0;
     justify-content: space-between;
     border-bottom: 2px solid #ECECEC;
@@ -317,7 +363,7 @@ button {
 }
 /* Feature */
 .feature {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     padding: 105px 0 68.5px;
 }
@@ -404,7 +450,7 @@ button {
 }
 /* Team */
 .team {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     padding: 68.5px 0 53px;
     text-align: left;
@@ -534,7 +580,7 @@ display: block;
 }
 /* subscribe */
 .subscribe {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -592,7 +638,7 @@ display: block;
 }
 /* Get in touch */
 .feedback {
-    width: 1249px;
+    max-width: 1249px;
     margin: 0 auto;
     padding-top: 104px;
     padding-bottom: 107px;
@@ -751,7 +797,7 @@ display: block;
 }
 /* Footer */
 .footer {
-    width: 1249px;
+    max-width: 1249px;
     min-height: 111px;
     margin: 0 auto;
     display: flex;
