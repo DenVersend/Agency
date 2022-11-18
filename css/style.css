@@ -173,27 +173,8 @@ button {
     justify-content: space-between;
 }
 
-@media screen and (min-width:805px) and (max-width:1240px) {
-    .intro {
-        flex-wrap: nowrap;
-    }
-}
-
 .intro__info {
     max-width: 595px;
-}
-
-@media screen and (max-width:1240px) {
-    .intro__info {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .intro__info {
-        width: 100%;
-        margin-bottom: 30px;
-    }
 }
 
 .intro__heading {
@@ -205,7 +186,6 @@ button {
     text-transform: uppercase;
     margin: -15px 0 19px;
     color: #000000;
-
 }
 
 .intro__heading_special {
@@ -221,7 +201,6 @@ button {
     line-height: 1.75;
     margin: 0 0 58px;
     color: #000000;
-
 }
 
 .action-link {
@@ -253,12 +232,31 @@ button {
 }
 
 @media screen and (max-width:1240px) {
+    .intro__info {
+        width: 50%;
+    }
     .intro__video {
         width: 50%
     }
 }
+@media screen and (min-width:805px) and (max-width:1240px) {
+    .intro {
+        flex-wrap: nowrap;
+    }
+}
 
 @media screen and (max-width:800px) {
+    .page__inner_section {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .intro__text {
+        margin-bottom: 25px;
+    }
+    .intro__info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
     .intro__video {
         width: 100%
     }
@@ -377,9 +375,13 @@ button {
     line-height: 1.75;
     color: #000000;
     margin: 0;
-
 }
 
+@media screen and (max-width: 1280px) {
+    .services {
+        margin-top: 42px;
+    }
+}
 /* Feature */
 .feature {
     max-width: 1249px;
@@ -484,8 +486,9 @@ button {
 }
 
 @media screen and (max-width: 1280px) {
-    .feature__products {
-        padding: 0 10px 0;
+    .feature {
+        padding-bottom: 25px;
+        padding-top: 42px;
     }
     .filter {
         padding-left: 0;
@@ -660,6 +663,13 @@ button {
 }
 
 @media screen and (max-width: 1280px) {
+    .team {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .team__header {
+        margin-bottom: 30px;
+    }
     .team__members {
         grid-column-gap: 4vw;
     }
@@ -690,6 +700,12 @@ button {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .team__lead-social {
+        justify-content: center;
+    }
+}
+
 
 /* subscribe */
 .subscribe {
@@ -698,7 +714,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 150px 0 140px;
+    padding: 150px 1vw 140px;
 }
 
 .subscribe__heading {
@@ -753,6 +769,33 @@ button {
     border-radius: 5px;
     border: none;
     background-color: #FF2D2D;
+}
+
+@media screen and (max-width: 1280px) {
+    .page__inner_subscribe {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .subscribe__heading {
+        text-align: center;
+    }
+    .subscribe__about {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width :790px) {
+    .subscribe__form {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width :560px){
+    .subscribe__email {
+        width: 100%;
+    }
 }
 
 /* Get in touch */
@@ -946,7 +989,7 @@ button {
 
 @media screen and (max-width: 1280px) {
     .feedback {
-        padding: 0 1vw 0;
+        padding-top: 50px;
         padding-bottom: 42px;
     }
 
@@ -982,10 +1025,14 @@ button {
         width: 100%;
     }
 
+    .feedback__inner {
+        padding: 0 1vw 0;
+    }
+
     .feedback__form {
         width: 100%;
         box-sizing: border-box;
-        margin-left: 0;
+        padding: 0 1vw 0;
     }
 
     .feedback__name {
@@ -1042,4 +1089,19 @@ button {
 .footer__img {
     width: 33px;
     height: 33px;
+}
+
+@media screen and (max-width: 1295px) {
+    .footer__copyright {
+       margin-left: 0;
+       padding-left: 7px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .footer {
+        flex-wrap: wrap;
+        gap: 17px;
+        justify-content: center;
+    }
 }
