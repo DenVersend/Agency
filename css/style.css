@@ -91,7 +91,7 @@ button {
 
 .page__inner_section {
     box-sizing: border-box;
-    padding: 101px 10px 110px;
+    padding: 101px 1vw 110px;
 }
 
 .page__inner_dark-2 {
@@ -267,9 +267,11 @@ button {
 /* Services */
 .services {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1249px;
     margin: 107.5px auto 0;
-    justify-content: space-between;
+    padding: 0 1vw 0;
+    gap: 100px;
     border-bottom: 2px solid #ECECEC;
 }
 
@@ -382,7 +384,7 @@ button {
 .feature {
     max-width: 1249px;
     margin: 0 auto;
-    padding: 105px 0 68.5px;
+    padding: 105px 1vw 68.5px;
 }
 
 .feature__header {
@@ -404,7 +406,7 @@ button {
 }
 
 .feature__about {
-    width: 537px;
+    max-width: 537px;
     margin: 0 auto;
     margin-bottom: 28.5px;
     font-family: 'Open Sans', sans-serif;
@@ -445,6 +447,7 @@ button {
     flex-wrap: wrap;
     list-style: none;
     gap: 56px;
+    justify-content: center;
 }
 
 .filter__link {
@@ -484,13 +487,24 @@ button {
     .feature__products {
         padding: 0 10px 0;
     }
+    .filter {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .filter__list {
+        gap: 25px;
+    }
+    .feature__header {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
 }
 
 /* Team */
 .team {
     max-width: 1249px;
     margin: 0 auto;
-    padding: 68.5px 0 53px;
+    padding: 68.5px 1vw 53px;
     text-align: left;
 }
 
@@ -753,8 +767,6 @@ button {
     max-width: 1249px;
     margin: 0 auto;
     margin-bottom: 76px;
-    padding-left: 10px;
-    padding-right: 10px;
     box-sizing: border-box;
 }
 
@@ -934,6 +946,7 @@ button {
 
 @media screen and (max-width: 1280px) {
     .feedback {
+        padding: 0 1vw 0;
         padding-bottom: 42px;
     }
 
@@ -971,7 +984,6 @@ button {
 
     .feedback__form {
         width: 100%;
-        padding: 0 10px 0;
         box-sizing: border-box;
         margin-left: 0;
     }
