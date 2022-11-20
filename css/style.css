@@ -187,7 +187,7 @@ button {
 .intro__heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 60px;
+    font-size: clamp(2em,2em + 2vw,60px);
     line-height: 1.2;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -760,6 +760,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 150px 1vw 140px;
+    box-sizing: border-box;
 }
 
 .subscribe__heading {
@@ -976,7 +977,7 @@ button {
     letter-spacing: 0.317046px;
     text-transform: uppercase;
     width: 731px;
-    height: 75px;
+    height: 72px;
     background-color: #FF3B3B;
     color: #FFFFFF;
     border: none;
