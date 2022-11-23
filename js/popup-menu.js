@@ -17,7 +17,3 @@ menuList.classList.add('hide');
 }
 
 document.addEventListener('click',closeMenu)
-
-console.log(menuWrapper);
-console.log(menuButton);
-console.log(menuList);
