@@ -303,7 +303,6 @@ button {
     text-transform: uppercase;
     letter-spacing: 0.42px;
     color: #000000;
-
 }
 
 .services__about {
@@ -313,7 +312,6 @@ button {
     font-size: 16px;
     line-height: 1.75;
     color: #000000;
-
 }
 
 .action-link_white {
@@ -382,7 +380,6 @@ button {
     font-size: 24px;
     line-height: 1.2;
     color: #000000;
-
 }
 
 .services__text {
@@ -522,7 +519,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 
 .feature__product {
@@ -753,7 +749,6 @@ button {
     }
 }
 
-
 /* subscribe */
 .subscribe {
     max-width: 1249px;
@@ -788,7 +783,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
-
 }
 
 .subscribe__email {
