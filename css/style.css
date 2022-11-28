@@ -792,7 +792,11 @@ button {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 805px) {
+    .team__inner {
+        display: contents;
+    }
+
     .team__members {
         grid-template-columns: auto;
         grid-template-rows: auto;
