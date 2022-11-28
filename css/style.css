@@ -602,6 +602,11 @@ button {
     flex: 1 1;
 }
 
+img.feature__product:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
+
 @media screen and (max-width: 1280px) {
     .feature {
         padding-bottom: 25px;
