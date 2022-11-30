@@ -215,6 +215,7 @@ button {
 .popup-menu__item {
     display: flex;
     min-height: 89px;
+    flex-direction: column;
 }
 
 .popup-menu__link {
